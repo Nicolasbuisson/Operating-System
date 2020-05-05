@@ -21,4 +21,4 @@
   
   Since this OS uses paging, it must be able to handle page faults. Whenever the pcb is trying to run a line of code that isn't in the RAM, a page fault occurs. The memorymanager checks if a free frame is available. If a free frame is available, the following page of instructions is loaded into the frame, otherwise a victim frame is randomly selected.
   
-    Feel free to create your own scripts as text files to test out the OS!
+Feel free to create your own scripts as text files to test out the OS!
