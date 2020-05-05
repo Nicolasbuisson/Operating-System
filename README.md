@@ -2,7 +2,7 @@
 
   Created a basic Operating System for Windows using C consisting of: 
   - kernel: core of the OS, contains the scheduler
-  - shell: 
+  - shell: represents the UI so that the user can interact with the OS
   - shellmemory: stores variables used by the OS
   - interpreter: interprets the commands and calls the corresponding functions
   - parser: parses the commands sent by the user 
