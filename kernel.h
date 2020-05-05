@@ -1,0 +1,11 @@
+void myinit(FILE *filename);
+typedef struct PCB pcb;
+void addToReady(pcb*);
+void completeExecution(PCB* pcb);
+void removePCBFromQueue();
+void scheduler();
+void initReadyQueue();
+PCB* getActivePCB();
+PCB* findPCBbyFrameNumber(int frameNumber);
+int findPageNumber(PCB *p, int frameNumber);
+void pageFault();
