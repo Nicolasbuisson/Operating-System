@@ -20,3 +20,5 @@
   Once all the launched scripts have finished their launching procedure, the OS starts running the programs. Each pcb has access to the CPU for a quanta before it must give it up to the next pcb. A quanta consists of 2 lines of code. When a pcb has finished executing, it is removed from the Ready Queue, the RAM it used is cleared, and the corresponding file in the Backing Store is deleted.
   
   Since this OS uses paging, it must be able to handle page faults. Whenever the pcb is trying to run a line of code that isn't in the RAM, a page fault occurs. The memorymanager checks if a free frame is available. If a free frame is available, the following page of instructions is loaded into the frame, otherwise a victim frame is randomly selected.
+  
+    Feel free to create your own scripts as text files to test out the OS!
